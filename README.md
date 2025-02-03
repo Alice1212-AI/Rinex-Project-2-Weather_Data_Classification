@@ -106,12 +106,10 @@ y_predicted = humidity_classifier.predict(X_test)
 
 The trained model is used to make predictions on the test data.
 
-@ 9.Evaluation:
+# 9.Evaluation:
 
 python
-
 Copy
-
 accuracy_score(y_test, y_predicted) * 100
 
 The accuracy of the model is calculated by comparing the predicted values (y_predicted) with the true values (y_test). The result is multiplied by 100 to get the accuracy as a percentage.
